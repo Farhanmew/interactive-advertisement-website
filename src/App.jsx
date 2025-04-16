@@ -7,7 +7,7 @@ import Pricing from './Components/Pricing';
 import Testimonials from './Components/Testimonials';
 import Footer from './Components/Footer';
 import { AuthProvider } from './context/AuthContext';
-import AppointmentModal from './components/AppointmentModal';
+import AppointmentModal from './Components/AppointmentModal';
 
 const App = () => {
   const [isAppointmentModalOpen, setIsAppointmentModalOpen] = useState(false);
